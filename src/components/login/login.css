@@ -1,0 +1,111 @@
+.loginPage{
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+}
+.playing {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    transform: translateX(-50%) translateY(-50%);
+}
+.playing:after {
+    content: "Music is my Drug";
+    font-family: 'offside', cursive;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    color: indianred;
+    font-size: 20px;
+}
+.now.playing .bar {
+    display: inline-block;
+    position: relative;
+    margin-right: 5px;
+    width: 10px;
+    height: 1px;
+    overflow: hidden;
+    background: linear-gradient(to bottom, rgba(95, 145, 255, 1), rgba(0, 0, 255, 0));
+    filter: drop-shadow(0 0 6px rgba(105, 155, 255, 1));
+    color: transparent;
+    animation-name: pulse;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+.paused.playing .bar {
+    animation-iteration-count: 1;
+}
+.paused.playing:after {
+    content: "Paused (Lame)"
+}
+.n1 {
+    animation-delay: 0.5s;
+}
+.n2 {
+    animation-delay: 0.2s;
+}
+.n3 {
+    animation-delay: 1.2s;
+}
+.n4 {
+    animation-delay: 0.9s;
+}
+.n5 {
+    animation-delay: 2.3s;
+}
+.n6 {
+    animation-delay: 1.3s;
+}
+.n7 {
+    animation-delay: 3.1s;
+}
+.n8 {
+    animation-delay: 1.9s;
+}
+@keyframes pulse {
+    0% {
+        height: 1px;
+        margin-top: 0;
+    }
+    10% {
+        height: 40px;
+        margin-top: -40px;
+    }
+    50% {
+        height: 20px;
+        margin-top: -20px;
+    }
+    60% {
+        height: 30px;
+        margin-top: -30px;
+    }
+    80% {
+        height: 60px;
+        margin-top: -60px;
+    }
+    100% {
+        height: 1px;
+        margin-top: 0;
+    }
+}
+.loginBtns{
+    position: relative;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    width: 200px;
+    height: 80px;
+}
+.login,.signup{
+    flex: 1;
+    text-align: center;
+    font-family: 'offside', cursive;
+    font-size: 28px;
+}
+.Button.Mui-selected{
+    font-family: 'offside', cursive;
+    font-size: 28px;
+}

@@ -1,0 +1,39 @@
+.homesidebar{
+    flex: 0.2;
+    height: 100%;
+    border-radius: 16px;
+}
+.homesidebarwrapper{
+    height: calc(100% - 20px);
+    width: calc(100% - 20px);
+    border-radius: 16px;
+    padding: 10px;
+
+}
+.homedisplay{
+    flex: 1.8;
+    height: 100%;
+    border-radius: 16px;
+    overflow-y:auto;
+    overflow-x: hidden;
+    margin-left: 10px;
+}
+.homedisplaywrapper{
+    height: calc(100% - 20px);
+    width: calc(100% - 20px);
+    border-radius: 16px;
+    padding: 10px;
+}
+.icons{
+    width: 100%;
+}
+.sidebaricons{
+    text-align: center;
+    width: 100%;
+    font-size: 32px;
+    color: powderblue;
+}
+.gapIcon{
+    height: 10px;
+    width: 100%;
+}

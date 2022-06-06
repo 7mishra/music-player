@@ -1,0 +1,86 @@
+.footer{
+    height: 100%;
+    width: 100%;
+    border-radius: 16px;
+    display: flex;
+}
+.musicProfile{
+    flex:0.35;
+    height: 100%;
+    border-radius: 16px;
+}
+.musicprofileWrapper{
+    height: calc(100% - 20px);
+    width: calc(100% - 20px);
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    border-radius: 16px;
+}
+.musicthumb{
+    flex: 0.8;
+    height: 100%;
+}
+.musicthumb img{
+    margin-top: 16px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    object-fit: contain;
+}
+.musicDetails{
+    flex: 1.2;
+    height: 100%;
+    color: powderblue;
+}
+.musicNamefooter{
+    margin-top: 20px;
+    font-family: 'Crimson Pro', serif;
+    /*font-family: 'Offside', cursive;*/
+    font-size: 18px;
+    text-align: left;
+
+}
+.musicArtistfooter{
+    margin-top: 4px;
+    font-family: 'Crimson Pro', serif;
+    font-size: 14px;
+    text-align: left;
+
+}
+.musicControl{
+    flex:0.25;
+    height: 100%;
+}
+.musiccontrolwrapper,.playerControlwrapper{
+    height: 100%;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 16px;
+    display: flex;
+}
+.musicControlIcon{
+    flex: 1;
+    padding-top: 20px;
+    height: calc(100% - 20px);
+    text-align: center;
+}
+.playerControlIcon{
+    flex: 1;
+    padding-top: 28px;
+    height: calc(100% - 28px);
+    text-align: center;
+}
+.icons{
+    font-size: 38px;
+}
+.icons2{
+    font-size: 28px;
+}
+.musicBuffer{
+    flex:1.1;
+}
+.playerControl{
+    flex:0.3;
+}
